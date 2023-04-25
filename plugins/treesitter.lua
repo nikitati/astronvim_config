@@ -13,6 +13,7 @@ return {
       "python",
       "scala",
       "sql",
+      "toml",
       "yaml",
     },
   },

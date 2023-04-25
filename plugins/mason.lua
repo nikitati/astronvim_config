@@ -1,4 +1,4 @@
--- customize mason plugins
+--" customize mason plugins
 return {
   -- use mason-lspconfig to configure LSP installations
   {
@@ -13,7 +13,7 @@ return {
     "jay-babu/mason-null-ls.nvim",
     -- overrides `require("mason-null-ls").setup(...)`
     opts = {
-      ensure_installed = { "prettier", "stylua" },
+      ensure_installed = { "prettier", "stylua", "black", "ruff" },
     },
   },
   {
