@@ -20,7 +20,6 @@ return {
         cwd = function(params) return params.root .. "/src/python/analytics" end,
       },
     }
-    config.debug = true
     return config -- return final config table
   end,
 }
